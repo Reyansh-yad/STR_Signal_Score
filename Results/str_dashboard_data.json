@@ -1,0 +1,62 @@
+[
+    {
+        "id": "RPT-2026-000002",
+        "score": 0.6636,
+        "reason_preview": "During the branch's periodic transaction-monitoring review, the compliance desk at ADBL examined the account held by Sally Dominguez after an internal...",
+        "status": "NOISE"
+    },
+    {
+        "id": "RPT-2026-000003",
+        "score": 0.6636,
+        "reason_preview": "During the branch's periodic transaction-monitoring review, the compliance desk at KUMARI examined the account held by Cook, Flores and Ray after an i...",
+        "status": "NOISE"
+    },
+    {
+        "id": "RPT-2026-000004",
+        "score": 0.6636,
+        "reason_preview": "During the branch's periodic transaction-monitoring review, the compliance desk at PRABHU examined the account held by Robert King after an internal t...",
+        "status": "NOISE"
+    },
+    {
+        "id": "RPT-2026-000006",
+        "score": 0.6636,
+        "reason_preview": "During the branch's periodic transaction-monitoring review, the compliance desk at PRABHU examined the account held by Robert Gould after an internal ...",
+        "status": "NOISE"
+    },
+    {
+        "id": "RPT-2026-000007",
+        "score": 0.6636,
+        "reason_preview": "During the branch's periodic transaction-monitoring review, the compliance desk at NIMB examined the account held by Kimberly Aguirre after an interna...",
+        "status": "NOISE"
+    },
+    {
+        "id": "RPT-2026-000001",
+        "score": 0.2595,
+        "reason_preview": "Suspicious transaction observed....",
+        "status": "NOISE"
+    },
+    {
+        "id": "RPT-2026-000005",
+        "score": 0.2595,
+        "reason_preview": "Suspicious transaction observed....",
+        "status": "NOISE"
+    },
+    {
+        "id": "RPT-2026-000009",
+        "score": 0.2595,
+        "reason_preview": "Suspicious transaction observed....",
+        "status": "NOISE"
+    },
+    {
+        "id": "RPT-2026-000011",
+        "score": 0.2595,
+        "reason_preview": "Suspicious transaction observed....",
+        "status": "NOISE"
+    },
+    {
+        "id": "RPT-2026-000013",
+        "score": 0.2595,
+        "reason_preview": "Suspicious transaction observed....",
+        "status": "NOISE"
+    }
+]
