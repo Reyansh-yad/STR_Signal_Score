@@ -67,13 +67,14 @@ const toNum = (v: string | undefined, fallback = 0): number => {
 
 const toStr = (v: string | undefined): string => (v ?? "").trim()
 
-export async function loadReports(): Promise<StrRow[]> {
+export async function loadReports(overridePath?: string): Promise<StrRow[]> {
   let raw: string
+  const targetPath = overridePath || CSV_PATH
   try {
-    raw = await readFile(CSV_PATH, "utf8")
+    raw = await readFile(targetPath, "utf8")
   } catch (err) {
     throw new Error(
-      `Could not read ${CSV_PATH}: ${(err as Error).message}. ` +
+      `Could not read ${targetPath}: ${(err as Error).message}. ` +
         `Run the Python pipeline first (python src/pipeline.py) to generate the scored CSV.`,
     )
   }
